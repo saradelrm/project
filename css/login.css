@@ -65,15 +65,14 @@ a:hover{
     color: skyblue;
 }
 
-.container
-{
+.container{
     display: flex;
     flex-direction: row;
     width: 100%;
 
 }
 
-::placeholder{
+::placeholder{               /* Set the color of the placeholser text*/
     color: aliceblue;
-    opacity: 0.8; /*Firefox*/
+    opacity: 0.8; 
 }
